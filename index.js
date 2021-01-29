@@ -31,3 +31,8 @@ function removeLastKitten(name) {
   var narray = kittens.slice(0,-1)
   return narray
 }
+
+function removeLastKitten(name) {
+  var narray = kittens.slice(1)
+  return narray
+}
