@@ -21,3 +21,10 @@ function appendKitten(name) {
   var narray = [...kittens, name]
   return narray
 }
+
+function appendKitten(name) {
+  var narray = [name, ...kittens]
+  return narray
+}
+
+
