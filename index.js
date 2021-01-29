@@ -26,3 +26,9 @@ function prependKitten(name) {
   var narray = [name, ...kittens]
   return narray
 }
+
+function removeLastKitten(name) {
+  var narray = kittens.splice(-1,1)
+  return narray
+}
+
