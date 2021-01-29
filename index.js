@@ -26,5 +26,3 @@ function appendKitten(name) {
   var narray = [name, ...kittens]
   return narray
 }
-
-
